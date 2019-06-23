@@ -1,0 +1,22 @@
+{
+  "name": "InfiScroll",
+  "version": "1.0.0",
+  "description": "Dynamically generated lazy-loading list in vanilla JS.",
+  "scripts": {
+    "build": "npx gulp build",
+    "server": "npx http-server . -o'"
+  },
+  "author": "Samuel Lindqvist",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "http-server": "^0.11.1"
+  }
+}
